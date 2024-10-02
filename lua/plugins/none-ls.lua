@@ -9,7 +9,7 @@ return {
 		},
 		config = function()
 			local null_ls = require("null-ls")
-			local eslint = require("eslint")
+			-- local eslint = require("eslint")
 			null_ls.setup({
 				sources = {
 					null_ls.builtins.formatting.stylua,
